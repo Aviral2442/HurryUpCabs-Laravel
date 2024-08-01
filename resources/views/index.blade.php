@@ -7,5 +7,7 @@
 
     {{-- services --}}
     {{-- @include('sections.service') --}}
+    @include('sections.hero')
+    @include('components.services')
 
 @endsection
