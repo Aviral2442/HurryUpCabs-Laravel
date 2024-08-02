@@ -7,7 +7,8 @@
 
     {{-- services --}}
     {{-- @include('sections.service') --}}
-    @include('sections.hero')
+
+    @include('sections.hero',['data'=>$data])
     @include('components.services')
 
 @endsection
