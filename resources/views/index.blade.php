@@ -10,7 +10,7 @@
 
     {{-- @include('sections.hero',['data'=>$data]) --}}
     @include('sections.hero',['data'=>$heroSection])
-    @include('components.services')
+    @include('components.services',['services'=>$serviceSection])
     @include('sections.whyChoose')
 
 @endsection

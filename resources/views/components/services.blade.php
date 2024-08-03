@@ -8,12 +8,13 @@
     }
 
     .rightPart {
-        color: blue;
+        color: rgb(47, 47, 220);
+        font-size: 22px;
     }
 
     .des {
         color: gray;
-    }
+    } 
 
     .card {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -50,11 +51,12 @@
 <div class="container-xxl serviceSection">
     <div class="heading">
         <h2 class="text-center fw-bold fs-1">
-            <span class="leftPart">Our Services Let You</span>
-            <span class="rightPart">Ride Smooth</span>
+            {{$services[0]->service_heading}}
+            {{-- <span class="leftPart">Our Services Let You</span>
+            <span class="rightPart">Ride Smooth</span> --}}
         </h2>
         <p class="text-center des">
-            We constantly strive forward to serve you a flawless riding experience with our out of the box services
+            {{$services[0]->service_description}}
         </p>
     </div>
 
@@ -64,8 +66,8 @@
                 <img src="transparency.webp" width="50px" class="img-fluid" alt="...">
             </div>
             <div class="text-center">
-                <h3 class="mt-4 rightPart fw-normal">Transparent Price Structure</h3>
-                <p class="des">Guaranteed transparency of charges for the consumer with proper invoicing.</p>
+                <h3 class="mt-4 rightPart fw-normal">{{$services[0]->ser_card_heading1}}</h3>
+                <p class="des">{{$services[0]->ser_card_description1}}</p>
             </div>
         </div>
 
@@ -74,8 +76,8 @@
                 <img src="transparency.webp" width="50px" class="img-fluid" alt="...">
             </div>
             <div class="text-center">
-                <h3 class="mt-4 rightPart fw-normal">Transparent Price Structure</h3>
-                <p class="des">Guaranteed transparency of charges for the consumer with proper invoicing.</p>
+                <h3 class="mt-4 rightPart fw-normal">{{$services[0]->ser_card_heading2}}</h3>
+                <p class="des">{{$services[0]->ser_card_description2}}</p>
             </div>
         </div>
 
@@ -84,8 +86,8 @@
                 <img src="transparency.webp" width="50px" class="img-fluid" alt="...">
             </div>
             <div class="text-center">
-                <h3 class="mt-4 rightPart fw-normal">Transparent Price Structure</h3>
-                <p class="des">Guaranteed transparency of charges for the consumer with proper invoicing.</p>
+                <h3 class="mt-4 rightPart fw-normal">{{$services[0]->ser_card_heading3}}</h3>
+                <p class="des">{{$services[0]->ser_card_description3}}</p>
             </div>
         </div>
     </div>
@@ -96,8 +98,8 @@
                 <img src="transparency.webp" width="50px" class="img-fluid" alt="...">
             </div>
             <div class="text-center">
-                <h3 class="mt-4 rightPart fw-normal">Transparent Price Structure</h3>
-                <p class="des">Guaranteed transparency of charges for the consumer with proper invoicing.</p>
+                <h3 class="mt-4 rightPart fw-normal">{{$services[0]->ser_card_heading4}}</h3>
+                <p class="des">{{$services[0]->ser_card_description4}}</p>
             </div>
         </div>
 
@@ -106,8 +108,8 @@
                 <img src="transparency.webp" width="50px" class="img-fluid" alt="...">
             </div>
             <div class="text-center">
-                <h3 class="mt-4 rightPart fw-normal">Transparent Price Structure</h3>
-                <p class="des">Guaranteed transparency of charges for the consumer with proper invoicing.</p>
+                <h3 class="mt-4 rightPart fw-normal">{{$services[0]->ser_card_heading5}}</h3>
+                <p class="des">{{$services[0]->ser_card_description5}}</p>
             </div>
         </div>
 
@@ -116,8 +118,8 @@
                 <img src="transparency.webp" width="50px" class="img-fluid" alt="...">
             </div>
             <div class="text-center">
-                <h3 class="mt-4 rightPart fw-normal">Transparent Price Structure</h3>
-                <p class="des">Guaranteed transparency of charges for the consumer with proper invoicing.</p>
+                <h3 class="mt-4 rightPart fw-normal">{{$services[0]->ser_card_heading6}}</h3>
+                <p class="des">{{$services[0]->ser_card_description6}}</p>
             </div>
         </div>
     </div>
