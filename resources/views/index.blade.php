@@ -11,6 +11,6 @@
     {{-- @include('sections.hero',['data'=>$data]) --}}
     @include('sections.hero',['data'=>$heroSection])
     @include('components.services',['services'=>$serviceSection])
-    @include('sections.whyChoose')
+    @include('sections.whyChoose',['whyUs'=>$whyChooseUs])
 
 @endsection

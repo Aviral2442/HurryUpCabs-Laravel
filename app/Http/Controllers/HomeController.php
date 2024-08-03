@@ -16,7 +16,8 @@ class HomeController extends Controller
 
         $heroSection = DB::table('hero_section')->get();
         $serviceSection = DB::table('service_section')->get();
-        return view('index',compact('heroSection','serviceSection'));
+        $whyChooseUs = DB::table('whychoosehurryup')->get();
+        return view('index',compact('heroSection','serviceSection','whyChooseUs'));
     }
 
 }

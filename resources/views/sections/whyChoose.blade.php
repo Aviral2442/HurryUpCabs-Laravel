@@ -42,7 +42,7 @@
 </style>
 
 <div class="container-xl py-5">
-    <h3 class=" fs-1 text-center mb-4">Why Choose HurryUp</h3>
+    <h3 class=" fs-1 text-center mb-4">{{$whyUs[0]->whyChoose_heading}}</h3>
     <div class="row p-5 pt-0">
         <!-- Left Column -->
         <div class="col-md-8 p-5">
@@ -51,8 +51,8 @@
                     <img src="transparency.webp" alt="Example Image" class="icon-image img-fluid">
                 </div>
                 <div class="col-12 col-md-11">
-                    <h4 class="fs-5">1000+ Rides at your service</h4>
-                    <p>We provide the widest range of cabs ranging from Micro, Sedans to SUVs Cars.</p>
+                    <h4 class="fs-5">{{$whyUs[0]->whyChoose_card_title1}}</h4>
+                    <p>{{$whyUs[0]->whyChoose_card_description1}}</p>
                 </div>
             </div>
 
@@ -61,8 +61,8 @@
                     <img src="transparency.webp" alt="Example Image" class="icon-image img-fluid">
                 </div>
                 <div class="col-12 col-md-11">
-                    <h4 class="fs-5">1000+ Rides at your service</h4>
-                    <p>We provide the widest range of cabs ranging from Micro, Sedans to SUVs Cars.</p>
+                    <h4 class="fs-5">{{$whyUs[0]->whyChoose_card_title2}}</h4>
+                    <p>{{$whyUs[0]->whyChoose_card_description2}}</p>
                 </div>
             </div>
 
@@ -71,8 +71,8 @@
                     <img src="transparency.webp" alt="Example Image" class="icon-image img-fluid">
                 </div>
                 <div class="col-12 col-md-11">
-                    <h4 class="fs-5">1000+ Rides at your service</h4>
-                    <p>We provide the widest range of cabs ranging from Micro, Sedans to SUVs Cars.</p>
+                    <h4 class="fs-5">{{$whyUs[0]->whyChoose_card_title3}}</h4>
+                    <p>{{$whyUs[0]->whyChoose_card_description3}}</p>
                 </div>
             </div>
         </div>
