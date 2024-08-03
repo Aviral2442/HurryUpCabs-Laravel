@@ -11,7 +11,9 @@ class HomeController extends Controller
     public function index()
     {
         $data = DB::table('website')->get(); // Selext * from website
-        return view('index',compact('data'));
+        $heroSection = DB::table('hero_section')->get();
+        return view('index',compact('data','heroSection'));
+        // return view('index',compact('heroSection'));
     }
 
 }

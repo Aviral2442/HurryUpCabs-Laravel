@@ -8,7 +8,8 @@
     {{-- services --}}
     {{-- @include('sections.service') --}}
 
-    @include('sections.hero',['data'=>$data])
+    {{-- @include('sections.hero',['data'=>$data]) --}}
+    @include('sections.hero',['data'=>$heroSection])
     @include('components.services')
     @include('sections.whyChoose')
 

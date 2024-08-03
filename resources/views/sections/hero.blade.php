@@ -62,9 +62,9 @@
 <div class="container-fluid HeroSection">
     <div class="row align-items-center h-100">
         <div class="col-md-6 text-center text-md-start text-center-md-start">
-            <h5 class="fw-normal">Relive traveling with</h5>
-            <h1 class="mt-2 fw-bold">{{$data[0]->website_main_heading}}</h1>
-            <h5 class="mt-2 fw-normal">A Journey is an experience and HurryUp cabs believe in making it a good one!</h5>
+            <h5 class="fw-normal">{{$data[0]->hero_heading}}</h5>
+            <h1 class="mt-2 fw-bold">{{$data[0]->hero_main_heading}}</h1>
+            <h5 class="mt-2 fw-normal">{{$data[0]->hero_description}}</h5>
             <div class="mt-5">
                 <button type="button" class="btn button">Download Now</button>
             </div>

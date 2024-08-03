@@ -42,8 +42,8 @@
 </style>
 
 <div class="container-xl py-5">
-    <h3 class="text-center mb-4">Why Choose HurryUp</h3>
-    <div class="row p-5">
+    <h3 class=" fs-1 text-center mb-4">Why Choose HurryUp</h3>
+    <div class="row p-5 pt-0">
         <!-- Left Column -->
         <div class="col-md-8 p-5">
             <div class="feature-card row mb-3 align-items-start">
