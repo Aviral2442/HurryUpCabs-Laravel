@@ -10,5 +10,6 @@
 
     @include('sections.hero',['data'=>$data])
     @include('components.services')
+    @include('sections.whyChoose')
 
 @endsection
