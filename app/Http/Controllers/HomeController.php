@@ -20,5 +20,20 @@ class HomeController extends Controller
         return view('index',compact('heroSection','serviceSection','whyChooseUs'));
     }
 
+    public function contact()
+    {
+        return view('pages.contact');
+    }
+
+    public function register()
+    {
+        return view('pages.registration');
+    }
+
+    public function login()
+    {
+        return view('pages.login');
+    }
+
 }
 // dd($data);
